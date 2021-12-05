@@ -13,15 +13,16 @@ class App extends Component {
         <ColorPanel />
         <SidePanel />
 
-        <Grid.Column style={{ marginLeft: 320 }}>
-          <Messages />
-        </Grid.Column>
+         <Grid.Column style={{ marginLeft: 320 }}>
+           <Messages />
+         </Grid.Column>
 
-        <Grid.Column width={4}>
-          <MetaPanel />
-        </Grid.Column>
+         <Grid.Column width={4}>
+           <MetaPanel />
+         </Grid.Column>
 
-      </Grid>
+       </Grid>
+      // <div>Dec</div>
     )
   }
 }
